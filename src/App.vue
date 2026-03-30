@@ -39,13 +39,12 @@ onMounted(loadFriendLinks)
       <div class="mx-auto w-full max-w-6xl px-4 py-5 sm:px-6 lg:px-8">
         <div>
           <div>
-            <p class="text-[12px] font-semibold tracking-[0.12em] text-muted-foreground uppercase">友情链接</p>
+            <p class="text-[12px] font-semibold tracking-[0.12em] text-muted-foreground uppercase">
+              友情链接
+            </p>
           </div>
 
-          <div
-            v-if="pending"
-            class="mt-2 px-0 py-[0.2rem] text-[12px] text-muted-foreground/80"
-          >
+          <div v-if="pending" class="mt-2 px-0 py-[0.2rem] text-[12px] text-muted-foreground/80">
             友链加载中...
           </div>
           <div
